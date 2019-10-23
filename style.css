@@ -1,0 +1,90 @@
+* {
+    font-family: 'Arial';
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.mainPageContainer {
+    width: 50%;
+    height: 500px;
+    margin: auto auto;
+}
+
+.topBox {
+    height: 10%;
+}
+
+.todoBox {
+    background-color: white;
+    width: 49%;
+    border-style: solid;
+    float: left;
+    height: 40%;
+}
+
+.rightBox {
+    width: 50%;
+    height: 30%;
+    display: inline-block;
+}
+
+#addButton {
+    background-color: green;
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+    color: white;
+    font-size: 150%;
+    border-radius: 10px;
+}
+
+#addButton:hover {
+    background-color: rgb(144, 255, 144);
+    cursor: pointer;
+}
+
+#addButton:active {
+    background-color: rgb(5, 99, 13);
+}
+
+#allTasks {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+.headlineBox1 {
+    width: 40%;
+    float: left;
+    font-size: 200%;
+    margin-right: 20%;
+}
+
+.headlineBox2 {
+    width: 40%;
+    display: inline-block;
+    font-size: 200%;
+}
+
+.todoBox2 {
+    width: 49%;
+    display: inline-block;
+    height: 40%;
+    border-style: solid;
+    border-color: white;
+    color: gray;
+}
+
+#completedTasks {
+    width: 100%;
+}
